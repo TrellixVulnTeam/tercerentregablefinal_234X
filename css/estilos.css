@@ -22,15 +22,15 @@
   overflow: hidden;
   background-color: none;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
-.gmap_canvas > .gmap_canvas {
+.gmap_canvas>.gmap_canvas {
   height: 500px;
   width: 600px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 #top__menu {
@@ -47,11 +47,11 @@
   font-size: 50px;
   color: #085394;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 h1 {
@@ -78,21 +78,21 @@ h1 {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
   height: 100%;
   width: auto;
   margin-top: 1rem;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .flexbox div {
   margin: 15px;
 }
 
-.flexbox > p {
+.flexbox>p {
   padding: 30px;
 }
 
@@ -105,8 +105,8 @@ h1 {
   height: 50px;
   text-align: end;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   font-size: 20px;
   color: white;
 }
@@ -116,7 +116,7 @@ h1 {
   height: 20px;
 }
 
-.btn > .btn-primary {
+.btn>.btn-primary {
   color: #1B1464 !important;
 }
 
@@ -124,13 +124,14 @@ h1 {
   background-color: #e9ecef;
 }
 
-#left > p {
+#left>p {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
 }
 
-#right > p {
+#right>p {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
 }
+
 /*# sourceMappingURL=estilos.css.map */
